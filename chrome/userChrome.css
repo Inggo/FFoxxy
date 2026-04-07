@@ -1,0 +1,21 @@
+#PersonalToolbar {
+  padding-right: 269px !important;
+
+  & .bookmark-item  {
+    > .toolbarbutton-text {
+      display: none !important;
+    }
+
+    > .toolbarbutton-icon {
+      width: 24px !important;
+      height: 24px !important;
+      margin-inline-end: auto !important;
+      margin: 0 auto !important;
+    }
+  }
+
+  & .toolbarbutton-1 {
+    transform: scale(1.2);
+    padding: 4px 6px;
+  }
+}
